@@ -1,0 +1,26 @@
+.home_img{
+  float: left;
+  width: 280rpx;
+  height: 170rpx;
+  padding-left: 2%;
+}
+.home_item{
+  width: 100%;
+  height: 200rpx;
+}
+.home_text{
+  display: flex;
+  flex-direction: column;
+  padding-left: 4%;
+}
+.home_name{
+  font-weight: 550;
+  font-size: 18px;
+  padding-top: 2%;
+}
+.home_introduce{
+  color: darkgray;
+  font-size: 15px;
+  padding-right: 6%;
+  padding-top: 4%;
+}

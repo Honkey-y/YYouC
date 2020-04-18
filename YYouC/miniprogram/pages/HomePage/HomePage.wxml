@@ -1,0 +1,20 @@
+<!--miniprogram/pages/HomePage/HomePage.wxml-->
+<view>
+<block wx:key="id" wx:for="{{HomePage}}">
+<view class="home_item" data-item="{{item}}">
+<view>
+  <image class="home_img" src="{{item.src}}"></image>
+</view>
+<view class="home_text">
+
+  <text class="home_name">{{item.home_name}}</text>
+
+  <text class="home_introduce">{{item.home_introduce}}</text>
+
+</view>
+
+</view>
+
+</block>
+
+</view>
